@@ -1,0 +1,139 @@
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(315deg, #ffffff 0%, #d9dee4 74%);
+
+  }
+ 
+  .footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem;
+    background: purple;
+    color: white;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.2rem;
+  }
+  
+  .bttup{
+  
+    margin-top: 0%;
+    border: 21px;
+    color: black;
+    padding: 7px 7px; 
+    text-align: center;
+    text-decoration: none;
+    font-size: 20;
+    margin: 0% 2%;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    box-shadow: 5px 5px rgb(46,49,46);
+    border: 2px solid black;
+    margin-top: 2%;
+
+  }
+
+  .buttSty {
+    background-color:  rgb(242,242,242) ; 
+    color: black; 
+    border: 3.2px solid black;
+  }
+  
+  .buttSty:hover {
+    background-color: rgb(190,192,190);
+    color: white;
+  }
+
+
+  .container1{
+    margin-left: 25%;
+    
+   }
+    
+    .container2{
+     border: 5px solid black;
+      background-color:  rgb(226,226,226);
+      margin-left: 0.3%;
+      margin-right: 40%;
+      display: flex;
+      justify-content: center;
+    }
+    .container3{
+      margin-top: 5%;
+      margin-bottom: 5%;
+      
+     }
+     .textoEsquerda{
+        text-align: left;
+      }
+
+
+    .diretapa{
+    text-align: right;
+}
+
+
+
+
+
+#list1 .form-control {
+  border-color: transparent;
+}
+#list1 .form-control:focus {
+  border-color: transparent;
+  box-shadow: none;
+}
+#list1 .select-input.form-control[readonly]:not([disabled]) {
+  background-color: #fbfbfb;
+}
+
+
+
+
+.task-list {
+  margin-top: 20px;
+}
+#taskName {
+  height: 70px; 
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: center;
+}
+
+.grey {
+  background-color: #f2f2f2; 
+}
+  .task-list {
+    margin-top: 20px;
+  }
+  #taskName {
+    height: 70px; 
+  }
+  
+  table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+  }
+
+  .grey {
+    background-color: #f2f2f2; 
+  }
+
